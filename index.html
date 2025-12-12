@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>المهنيون — دليلك للخدمات القريبة</title>
+  <meta name="description" content="اكتشف اتصل وراجع الساعات والموقع لأقرب أصحاب المهن والمحال حولك — تطبيق المهنيون" />
+  <style>
+    :root{--accent:#0b6efd;--muted:#666}
+    body{font-family:'Segoe UI',Tahoma,Arial;margin:0;background:#f7f8fb;color:#111}
+    .container{max-width:980px;margin:24px auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .logo{display:flex;align-items:center;gap:12px}
+    .hero{background:#fff;padding:28px;border-radius:14px;box-shadow:0 6px 18px rgba(10,20,40,.06);margin-top:16px}
+    h1{margin:0 0 8px;font-size:28px}
+    p.lead{margin:0 0 16px;color:var(--muted)}
+    .store-buttons{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;background:var(--accent);color:#fff}
+    .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:18px}
+    .card{background:#fff;padding:16px;border-radius:12px}
+    .how{display:flex;flex-direction:column;gap:12px;margin-top:18px}
+    footer{margin-top:18px;color:var(--muted);text-align:center}
+    .small{font-size:13px;color:var(--muted)}
+    @media(min-width:720px){.hero-grid{display:grid;grid-template-columns:1fr 360px;gap:18px}}
+    input{width:100%;padding:8px;margin-top:6px;border-radius:8px;border:1px solid #e3e6eb}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='44' height='44'><rect rx='10' width='44' height='44' fill='%230b6efd'/><text x='50%' y='55%' font-size='20' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'>م</text></svg>" alt="logo" />
+        <div>
+          <strong>المهنيون</strong>
+          <div class="small">دليل الخدمات القريب منك</div>
+        </div>
+      </div>
+      <nav class="small"><a href="#download">نزّل التطبيق</a> • <a href="#register">سجّل هنا</a></nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <h1>المهنيون — لقي صاحب المهنة أو المحل الأقرب إليك بسرعة</h1>
+          <p class="lead">اعرف ساعات الدوام، شوف الموقع على الخريطة، واتصل بضغطة واحدة — بناءً على موقعك الجغرافي.</p>
+
+          <div class="store-buttons" id="download">
+            <a class="btn" href="https://play.google.com/store/apps/details?id=com.mahniyeen.app&pcampaignid=web_share">نزّل لأندرويد</a>
+            <a class="btn" href="https://apps.apple.com/app/id6752771415">نزّل للآيفون</a>
+            <a class="btn" href="https://mahniyeen-mu.vercel.app/">افتح الموقع</a>
+          </div>
+
+          <div class="features">
+            <div class="card"><strong>بحث حسب الموقع</strong><div class="small">يعرض أقرب المهن والمصالح حولك.</div></div>
+            <div class="card"><strong>ساعات العمل</strong><div class="small">اعرف وقت الفتح والإغلاق.</div></div>
+            <div class="card"><strong>خرائط واتصال</strong><div class="small">اتجاهات مباشرة وزر اتصال فوري.</div></div>
+            <div class="card"><strong>تقييمات</strong><div class="small">آراء وتجارب المستخدمين.</div></div>
+          </div>
+        </div>
+
+        <aside id="register">
+          <div class="card">
+            <h3 style="margin-top:0">سجّل الآن للظهور داخل تطبيق المهنيون</h3>
+            <p class="small">اسمك يظهر للعملاء في منطقتك خلال 24 ساعة.</p>
+
+            <a href="https://forms.gle/NiGE794aUjgQNHGG9" class="btn" style="width:100%;text-align:center">افتح استمارة التسجيل</a>
+
+            <div class="small" style="margin-top:12px">أو تواصل عبر واتساب: <a href="https://wa.me/972523321942">اضغط هنا</a></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section style="margin-top:18px">
+      <h2 style="margin:0 0 8px">كيف يعمل التطبيق؟</h2>
+      <div class="how">
+        <div class="card"><strong>1. افتح التطبيق</strong><div class="small">يحدد موقعك تلقائياً.</div></div>
+        <div class="card"><strong>2. شاهد المهن القريبة</strong><div class="small">اختَر حسب النوع أو المسافة.</div></div>
+        <div class="card"><strong>3. اتصل أو اذهب مباشرة</strong><div class="small">زر اتجاهات الوصول متاح فوراً.</div></div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="small">© تطبيق المهنيون — جميع الحقوق محفوظة</div>
+    </footer>
+  </div>
+</body>
+</html>
