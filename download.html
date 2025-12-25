@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تحميل تطبيق المهنيون</title>
+  <script>
+    var ua = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/android/i.test(ua)) {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.mahniyeen.app&pcampaignid=web_share";
+    } else if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) {
+      window.location.href = "https://apps.apple.com/app/id6752771415";
+    } else {
+      window.location.href = "https://mahniyeen-mu.vercel.app/";
+    }
+  </script>
+</head>
+<body>
+  <p>جارٍ تحويلك…</p>
+</body>
+</html>
